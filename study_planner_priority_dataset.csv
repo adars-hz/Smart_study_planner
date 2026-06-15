@@ -1,0 +1,301 @@
+Difficulty,Days_Left,Preparation_Level,Available_Hours,Priority_Score,Strategy,Gap_Days
+1,2,3,5,1.0,Urgent - Focus Now,6
+2,9,1,10,4.75,Short-term Prep,3
+1,38,4,2,1.0,Long-term Plan,7
+1,6,2,5,1.0,Urgent - Focus Now,4
+5,39,1,10,5.75,Long-term Plan,6
+2,46,5,8,1.0,Long-term Plan,9
+2,29,5,6,2.55,Balanced Study,2
+1,49,2,8,1.0,Long-term Plan,6
+3,18,2,5,3.0,Balanced Study,7
+3,7,1,8,4.35,Urgent - Focus Now,4
+1,23,3,6,1.0,Balanced Study,3
+1,47,4,10,1.0,Long-term Plan,7
+1,60,4,3,1.0,Long-term Plan,7
+5,19,5,7,7.55,Balanced Study,2
+5,13,1,2,7.05,Short-term Prep,5
+2,50,3,3,1.0,Long-term Plan,4
+2,56,1,8,4.4,Long-term Plan,1
+3,30,3,4,1.6,Balanced Study,7
+3,23,2,6,2.75,Balanced Study,5
+1,39,2,10,2.95,Long-term Plan,1
+2,11,4,8,1.0,Short-term Prep,4
+3,60,5,5,2.5,Long-term Plan,0
+3,54,1,5,2.0,Long-term Plan,9
+1,52,3,8,1.0,Long-term Plan,5
+3,5,2,7,3.65,Urgent - Focus Now,8
+2,42,4,8,2.7,Long-term Plan,0
+4,10,3,4,4.1,Short-term Prep,9
+2,48,5,10,1.6,Long-term Plan,2
+3,48,5,8,1.0,Long-term Plan,6
+5,26,3,5,6.8,Balanced Study,3
+2,33,4,3,1.0,Long-term Plan,8
+1,56,1,4,2.9,Long-term Plan,2
+2,51,4,3,1.0,Long-term Plan,4
+4,25,5,9,5.75,Balanced Study,2
+5,17,5,2,3.65,Balanced Study,6
+1,44,5,6,1.0,Long-term Plan,4
+3,8,3,8,2.7,Short-term Prep,8
+2,30,1,6,1.7,Balanced Study,6
+5,49,2,10,8.45,Long-term Plan,1
+1,56,3,10,1.0,Long-term Plan,3
+5,13,2,7,6.25,Short-term Prep,8
+2,35,5,2,2.25,Long-term Plan,1
+5,21,4,2,4.25,Balanced Study,9
+1,60,3,6,1.0,Long-term Plan,8
+2,4,2,3,2.2,Urgent - Focus Now,9
+1,47,4,3,1.0,Long-term Plan,4
+5,50,2,4,8.4,Long-term Plan,1
+4,36,2,6,5.6,Long-term Plan,3
+5,56,5,8,1.7,Long-term Plan,6
+2,60,5,5,1.0,Long-term Plan,7
+3,26,3,9,5.8,Balanced Study,2
+5,29,1,5,10.0,Balanced Study,0
+2,5,3,2,3.35,Urgent - Focus Now,3
+5,36,2,5,9.1,Long-term Plan,1
+1,5,1,5,1.45,Urgent - Focus Now,7
+1,58,1,7,1.0,Long-term Plan,3
+1,33,2,6,3.25,Long-term Plan,1
+4,14,5,4,2.3,Short-term Prep,5
+5,37,4,5,3.45,Long-term Plan,5
+4,52,4,5,1.2,Long-term Plan,9
+1,7,4,7,1.0,Urgent - Focus Now,3
+4,27,4,2,2.45,Balanced Study,5
+1,4,4,7,3.1,Urgent - Focus Now,1
+1,16,2,5,1.0,Balanced Study,9
+5,29,2,8,9.45,Balanced Study,1
+2,18,4,5,1.0,Balanced Study,9
+1,29,5,3,1.0,Balanced Study,3
+1,42,5,2,1.0,Long-term Plan,7
+1,60,2,4,1.0,Long-term Plan,6
+4,32,4,5,2.2,Long-term Plan,8
+4,58,1,4,3.3,Long-term Plan,7
+4,1,4,6,3.75,Urgent - Focus Now,4
+4,19,4,10,6.85,Balanced Study,1
+4,10,2,6,4.9,Short-term Prep,4
+2,4,5,10,1.0,Urgent - Focus Now,7
+1,48,3,2,1.0,Long-term Plan,9
+1,38,4,10,1.0,Long-term Plan,8
+5,11,1,10,7.15,Short-term Prep,8
+1,55,2,3,2.15,Long-term Plan,0
+5,5,2,8,6.65,Urgent - Focus Now,8
+1,57,5,5,1.0,Long-term Plan,6
+5,39,1,3,5.75,Long-term Plan,8
+4,43,5,10,1.0,Long-term Plan,7
+3,60,3,5,4.1,Long-term Plan,0
+3,16,3,8,2.3,Balanced Study,7
+2,43,3,9,1.0,Long-term Plan,7
+3,60,1,2,5.7,Long-term Plan,2
+4,40,5,3,5.0,Long-term Plan,0
+1,35,2,10,1.0,Long-term Plan,7
+3,9,3,3,6.65,Short-term Prep,2
+2,24,3,4,4.4,Balanced Study,2
+4,54,5,6,4.3,Long-term Plan,0
+5,52,5,2,1.9,Long-term Plan,4
+5,20,1,4,6.7,Balanced Study,9
+3,8,1,10,4.3,Short-term Prep,6
+2,18,3,5,1.0,Balanced Study,9
+3,14,3,10,2.4,Short-term Prep,8
+4,17,1,3,5.35,Balanced Study,6
+4,54,3,2,1.9,Long-term Plan,8
+1,22,2,6,1.0,Balanced Study,7
+2,48,4,10,2.4,Long-term Plan,1
+4,36,1,3,8.4,Long-term Plan,0
+1,57,2,10,1.0,Long-term Plan,6
+1,54,3,10,1.0,Long-term Plan,6
+2,28,2,2,1.0,Balanced Study,7
+3,24,1,7,3.5,Balanced Study,4
+2,44,2,3,4.2,Long-term Plan,2
+3,50,5,8,1.0,Long-term Plan,7
+5,48,2,5,4.5,Long-term Plan,5
+2,52,2,8,3.8,Long-term Plan,2
+1,12,3,8,3.5,Short-term Prep,0
+2,18,2,3,5.5,Balanced Study,2
+4,56,1,9,3.4,Long-term Plan,4
+2,13,4,7,4.15,Short-term Prep,2
+3,53,2,5,5.25,Long-term Plan,0
+1,43,2,8,1.0,Long-term Plan,4
+3,18,1,6,3.8,Balanced Study,9
+3,42,5,8,1.0,Long-term Plan,6
+5,22,1,3,6.6,Balanced Study,6
+3,12,5,6,1.0,Short-term Prep,8
+1,7,5,8,1.0,Urgent - Focus Now,9
+3,47,3,8,1.0,Long-term Plan,9
+5,33,1,8,10.0,Long-term Plan,2
+5,13,3,2,5.45,Short-term Prep,6
+4,1,5,10,6.95,Urgent - Focus Now,0
+2,24,4,3,1.6,Balanced Study,3
+3,40,3,3,3.1,Long-term Plan,3
+3,33,3,8,1.45,Long-term Plan,4
+3,26,3,10,1.8,Balanced Study,6
+2,13,4,8,1.0,Short-term Prep,6
+2,40,5,6,1.0,Long-term Plan,3
+4,36,1,6,4.4,Long-term Plan,6
+3,14,4,7,5.6,Short-term Prep,2
+4,29,4,5,2.35,Balanced Study,5
+5,31,2,3,9.35,Long-term Plan,1
+3,33,5,7,1.0,Long-term Plan,9
+1,53,2,6,1.0,Long-term Plan,8
+2,52,2,4,1.0,Long-term Plan,4
+1,3,2,9,1.0,Urgent - Focus Now,5
+5,55,1,9,6.95,Long-term Plan,3
+4,57,5,5,1.0,Long-term Plan,9
+4,32,4,5,2.2,Long-term Plan,6
+2,42,1,3,1.1,Long-term Plan,8
+4,15,2,10,4.65,Balanced Study,6
+4,4,5,5,6.8,Urgent - Focus Now,0
+1,30,2,9,3.4,Balanced Study,0
+5,36,5,7,2.7,Long-term Plan,8
+4,40,5,8,1.0,Long-term Plan,8
+5,29,2,9,7.45,Balanced Study,3
+4,17,2,6,4.55,Balanced Study,8
+5,32,2,6,9.3,Long-term Plan,2
+4,5,3,5,4.35,Urgent - Focus Now,6
+3,22,3,10,2.0,Balanced Study,5
+1,9,2,5,1.0,Short-term Prep,7
+4,45,2,5,3.15,Long-term Plan,8
+1,27,4,7,1.0,Balanced Study,4
+5,30,4,2,7.8,Balanced Study,0
+2,54,4,8,2.1,Long-term Plan,2
+5,45,1,8,5.45,Long-term Plan,9
+4,1,3,6,4.55,Urgent - Focus Now,7
+4,55,4,10,1.05,Long-term Plan,5
+5,52,5,5,1.9,Long-term Plan,7
+4,15,3,8,3.85,Balanced Study,8
+4,2,4,7,5.7,Urgent - Focus Now,3
+4,47,2,9,7.05,Long-term Plan,0
+2,40,5,2,2.0,Long-term Plan,0
+4,38,5,2,1.1,Long-term Plan,9
+1,42,4,4,1.0,Long-term Plan,3
+4,12,1,6,5.6,Short-term Prep,6
+4,21,2,9,8.35,Balanced Study,1
+3,22,4,6,5.2,Balanced Study,2
+4,17,1,9,9.35,Balanced Study,0
+1,48,5,2,1.0,Long-term Plan,4
+3,15,1,2,7.95,Balanced Study,0
+1,16,2,2,1.0,Balanced Study,7
+5,10,2,4,10.0,Short-term Prep,0
+4,43,1,5,8.05,Long-term Plan,0
+4,45,3,7,6.35,Long-term Plan,1
+2,39,5,3,2.05,Long-term Plan,1
+2,20,1,2,2.2,Balanced Study,5
+3,37,4,8,1.0,Long-term Plan,6
+2,5,5,5,1.0,Urgent - Focus Now,4
+1,45,3,3,1.85,Long-term Plan,0
+5,51,1,7,9.15,Long-term Plan,0
+5,28,3,3,8.7,Balanced Study,2
+5,42,3,2,8.0,Long-term Plan,1
+4,53,4,3,1.15,Long-term Plan,4
+4,24,4,4,2.6,Balanced Study,9
+4,12,5,6,2.4,Short-term Prep,5
+5,52,5,9,1.9,Long-term Plan,6
+4,28,5,6,3.6,Balanced Study,3
+3,55,2,3,1.15,Long-term Plan,6
+3,57,4,5,1.0,Long-term Plan,7
+4,37,5,8,5.15,Long-term Plan,0
+3,2,4,7,2.2,Urgent - Focus Now,5
+2,32,2,7,1.0,Long-term Plan,7
+3,22,3,6,2.0,Balanced Study,4
+5,1,5,5,6.45,Urgent - Focus Now,3
+1,16,4,9,2.5,Balanced Study,1
+5,49,2,9,4.45,Long-term Plan,5
+4,29,1,3,4.75,Balanced Study,5
+3,15,4,5,5.55,Balanced Study,0
+3,43,5,7,1.0,Long-term Plan,8
+4,36,5,7,1.2,Long-term Plan,5
+4,48,5,7,4.6,Long-term Plan,2
+3,45,4,6,2.05,Long-term Plan,3
+3,17,2,3,5.05,Balanced Study,3
+2,21,1,10,6.15,Balanced Study,2
+2,13,2,9,1.75,Short-term Prep,9
+3,47,5,10,3.15,Long-term Plan,2
+5,19,1,5,10.0,Balanced Study,2
+3,15,3,4,4.35,Balanced Study,3
+3,1,5,4,1.45,Urgent - Focus Now,6
+3,3,1,10,6.55,Urgent - Focus Now,3
+3,45,2,9,1.65,Long-term Plan,8
+1,56,1,6,2.9,Long-term Plan,0
+4,31,4,7,2.25,Long-term Plan,7
+2,4,3,9,1.4,Urgent - Focus Now,6
+1,53,1,8,3.05,Long-term Plan,1
+4,5,5,2,2.75,Urgent - Focus Now,7
+2,10,5,6,3.5,Short-term Prep,0
+1,16,1,10,1.0,Balanced Study,8
+4,39,5,5,1.05,Long-term Plan,8
+5,25,4,9,8.05,Balanced Study,1
+3,56,5,8,1.0,Long-term Plan,6
+3,37,5,2,1.0,Long-term Plan,9
+5,48,1,5,9.3,Long-term Plan,2
+2,17,1,4,2.35,Balanced Study,6
+2,12,5,3,1.0,Short-term Prep,9
+2,1,4,9,1.0,Urgent - Focus Now,8
+5,31,3,2,6.55,Long-term Plan,3
+2,19,3,9,4.65,Balanced Study,0
+1,44,2,6,2.7,Long-term Plan,1
+5,43,2,8,8.75,Long-term Plan,0
+1,35,2,4,1.0,Long-term Plan,4
+3,53,2,3,1.25,Long-term Plan,4
+1,11,3,6,1.0,Short-term Prep,6
+4,8,4,6,3.4,Short-term Prep,8
+4,18,5,10,2.1,Balanced Study,8
+4,29,1,2,8.75,Balanced Study,2
+4,48,3,6,6.2,Long-term Plan,2
+1,6,2,2,4.6,Urgent - Focus Now,2
+3,37,1,4,4.85,Long-term Plan,3
+4,34,4,6,2.1,Long-term Plan,7
+2,38,4,9,1.0,Long-term Plan,5
+1,31,3,8,1.0,Long-term Plan,7
+3,21,1,4,7.65,Balanced Study,0
+3,27,4,6,1.0,Balanced Study,7
+4,53,5,2,2.35,Long-term Plan,3
+4,6,3,6,8.3,Urgent - Focus Now,0
+3,8,4,10,1.9,Short-term Prep,7
+1,43,5,9,1.0,Long-term Plan,3
+4,4,2,10,5.2,Urgent - Focus Now,5
+3,40,4,9,1.0,Long-term Plan,7
+1,14,3,10,1.4,Short-term Prep,3
+2,60,3,9,2.6,Long-term Plan,2
+4,8,1,5,5.8,Short-term Prep,8
+2,20,5,2,3.0,Balanced Study,2
+5,27,1,5,6.35,Balanced Study,8
+1,30,1,4,4.2,Balanced Study,1
+4,60,3,10,5.6,Long-term Plan,1
+3,27,4,9,4.95,Balanced Study,1
+2,30,5,4,1.0,Balanced Study,5
+4,13,5,10,6.35,Short-term Prep,2
+2,56,1,6,1.0,Long-term Plan,8
+4,22,5,6,3.9,Balanced Study,3
+1,19,3,9,3.15,Balanced Study,0
+2,29,5,9,1.0,Balanced Study,3
+3,22,5,10,4.4,Balanced Study,0
+4,30,3,5,3.1,Balanced Study,4
+2,37,4,5,1.0,Long-term Plan,3
+4,3,3,9,4.45,Urgent - Focus Now,7
+4,25,2,9,4.15,Balanced Study,7
+1,9,5,7,1.0,Short-term Prep,6
+1,56,4,3,1.0,Long-term Plan,2
+5,59,4,2,6.35,Long-term Plan,0
+2,27,2,3,5.05,Balanced Study,0
+4,51,3,7,6.05,Long-term Plan,2
+5,45,4,3,3.05,Long-term Plan,5
+3,55,5,8,1.0,Long-term Plan,6
+3,41,4,10,1.0,Long-term Plan,5
+1,40,1,5,1.0,Long-term Plan,5
+3,15,1,8,3.95,Balanced Study,5
+1,49,1,9,3.25,Long-term Plan,2
+2,45,3,2,1.0,Long-term Plan,5
+1,21,1,6,1.0,Balanced Study,7
+3,24,4,4,5.1,Balanced Study,1
+2,34,4,4,1.0,Long-term Plan,4
+2,12,1,8,6.6,Short-term Prep,0
+5,44,2,9,8.7,Long-term Plan,0
+5,10,2,9,6.4,Short-term Prep,4
+3,30,3,2,5.6,Balanced Study,2
+4,58,3,10,3.7,Long-term Plan,3
+2,5,4,7,4.55,Urgent - Focus Now,2
+5,20,4,6,8.3,Balanced Study,0
+4,55,3,5,5.85,Long-term Plan,0
+4,55,4,3,1.05,Long-term Plan,4
+2,25,5,7,1.0,Balanced Study,5
+5,19,3,2,9.15,Balanced Study,2
+4,18,1,2,5.3,Balanced Study,8
