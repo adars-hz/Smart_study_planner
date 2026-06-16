@@ -4,24 +4,23 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     // ── DOM References ──────────────────────────────────────────────────
-    const form          = document.getElementById('subject-form');
+    const form = document.getElementById('subject-form');
     const btnAddSubject = document.getElementById('btn-add-subject');
-    const btnGenerate   = document.getElementById('btn-generate');
-    const btnDownload   = document.getElementById('btn-download');
-    const btnClear      = document.getElementById('btn-clear');
-    const tableBody     = document.getElementById('table-body');
-    const tableWrap     = document.getElementById('table-wrap');
-    const emptyState    = document.getElementById('empty-state');
-    const toast         = document.getElementById('toast');
-    const toastIcon     = document.getElementById('toast-icon');
-    const toastMsg      = document.getElementById('toast-msg');
+    const btnGenerate = document.getElementById('btn-generate');
+    const btnClear = document.getElementById('btn-clear');
+    const tableBody = document.getElementById('table-body');
+    const tableWrap = document.getElementById('table-wrap');
+    const emptyState = document.getElementById('empty-state');
+    const toast = document.getElementById('toast');
+    const toastIcon = document.getElementById('toast-icon');
+    const toastMsg = document.getElementById('toast-msg');
 
     // Inputs
-    const inputSubject    = document.getElementById('input-subject');
+    const inputSubject = document.getElementById('input-subject');
     const inputDifficulty = document.getElementById('input-difficulty');
-    const inputPrep       = document.getElementById('input-prep');
-    const inputDays       = document.getElementById('input-days');
-    const inputHours      = document.getElementById('input-hours');
+    const inputPrep = document.getElementById('input-prep');
+    const inputDays = document.getElementById('input-days');
+    const inputHours = document.getElementById('input-hours');
 
     // ── State ───────────────────────────────────────────────────────────
     let toastTimer = null;
@@ -29,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function showToast(message, icon = '✅') {
         toastIcon.textContent = icon;
-        toastMsg.textContent  = message;
+        toastMsg.textContent = message;
         toast.classList.add('show');
 
         clearTimeout(toastTimer);
@@ -46,12 +45,12 @@ document.addEventListener('DOMContentLoaded', () => {
         tableBody.innerHTML = '';
 
         if (!subjects || subjects.length === 0) {
-            tableWrap.style.display  = 'none';
+            tableWrap.style.display = 'none';
             emptyState.style.display = 'block';
             return;
         }
 
-        tableWrap.style.display  = 'block';
+        tableWrap.style.display = 'block';
         emptyState.style.display = 'none';
 
         subjects.forEach((s, i) => {
@@ -66,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 ? `<span class="badge badge--time">${s.allocated_time}</span>`
                 : `<span class="badge badge--pending">—</span>`;
 
-            const strategyText = s.strategy_note 
+            const strategyText = s.strategy_note
                 ? `<span style="font-size: 0.75rem; color: var(--text-hint);">${s.strategy_note}</span>`
                 : `<span class="badge badge--pending">—</span>`;
 
@@ -102,17 +101,17 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
 
         const payload = {
-            subject:    inputSubject.value.trim(),
+            subject: inputSubject.value.trim(),
             difficulty: parseFloat(inputDifficulty.value),
             prep_level: parseFloat(inputPrep.value),
-            days_left:  parseFloat(inputDays.value)
+            days_left: parseFloat(inputDays.value)
         };
 
         try {
             const url = editingId ? `/api/edit_subject/${editingId}` : '/api/add_subject';
             const method = editingId ? 'PUT' : 'POST';
 
-            const res  = await fetch(url, {
+            const res = await fetch(url, {
                 method: method,
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(payload)
@@ -151,7 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
         btnGenerate.textContent = 'Generating…';
 
         try {
-            const res  = await fetch('/api/generate_timetable', {
+            const res = await fetch('/api/generate_timetable', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ total_hours: hours })
@@ -174,47 +173,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // ── Download Timetable as PDF ───────────────────────────────────────
-    btnDownload.addEventListener('click', () => {
-        const tableWrap = document.getElementById('table-wrap');
-        if (tableWrap.style.display === 'none') {
-            showToast('No timetable to download.', '⚠️');
-            return;
-        }
-        
-        showToast('Generating PDF...', '⏳');
-        const element = document.getElementById('results-section');
-        
-        // Hide the "Actions" column before taking the PDF snapshot
-        const actionCells = element.querySelectorAll('td:last-child, th:last-child');
-        actionCells.forEach(cell => cell.style.display = 'none');
-        
-        // Make the background dark for the PDF export so the text is visible
-        const originalBg = element.style.background;
-        element.style.background = '#161624'; 
-        element.style.padding = '20px';
-        
-        const opt = {
-            margin:       0.5,
-            filename:     'personalized_timetable.pdf',
-            image:        { type: 'jpeg', quality: 0.98 },
-            html2canvas:  { scale: 2, useCORS: true, logging: false },
-            jsPDF:        { unit: 'in', format: 'letter', orientation: 'landscape' }
-        };
-        
-        html2pdf().set(opt).from(element).save().then(() => {
-            // Restore UI
-            actionCells.forEach(cell => cell.style.display = '');
-            element.style.background = originalBg;
-            element.style.padding = '';
-            showToast('Timetable saved as PDF!', '📄');
-        });
-    });
-
     // ── Clear All ───────────────────────────────────────────────────────
     btnClear.addEventListener('click', async () => {
         try {
-            const res  = await fetch('/api/clear', { method: 'POST' });
+            const res = await fetch('/api/clear', { method: 'POST' });
             const data = await res.json();
             renderTable(data.subjects);
             showToast('All subjects cleared.', '🗑');
@@ -254,17 +216,15 @@ document.addEventListener('DOMContentLoaded', () => {
             inputDifficulty.value = btn.getAttribute('data-diff');
             inputPrep.value = btn.getAttribute('data-prep');
             inputDays.value = btn.getAttribute('data-days');
-            
+
             editingId = id;
             btnAddSubject.innerHTML = '<span class="btn__icon">✏️</span> Update Subject';
             inputSubject.focus();
-            
+
             // Scroll to form
             document.getElementById('input-section').scrollIntoView({ behavior: 'smooth' });
         }
     });
-
-
 
     // ── Load existing subjects on page load ─────────────────────────────
     (async () => {
@@ -289,7 +249,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             // 2. Fallback to whatever is currently on the server
-            const res  = await fetch('/api/subjects');
+            const res = await fetch('/api/subjects');
             const data = await res.json();
             renderTable(data.subjects);
         } catch (err) {
